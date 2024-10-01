@@ -1,9 +1,9 @@
+import Hero from "@/shared/components/hero";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Bonjour</h1>
-      <p>Je suis niraina!</p>
+    <div className="max-w-6xl w-full mx-auto px-3">
+      <Hero />
     </div>
   );
 }
