@@ -56,7 +56,8 @@ const config = {
         },
       },
       fontFamily: {
-        sans: ["JetBrains Mono", "monospace"],
+        jetbrains: ["JetBrains Mono", "monospace"],
+        caveat: ['Caveat', 'cursive'],
       },
       borderRadius: {
         lg: "var(--radius)",
