@@ -1,13 +1,17 @@
 import About from "@/shared/components/about";
-import AllSkill from "@/shared/components/all-skill";
+import Course from "@/shared/components/course";
+import Formation from "@/shared/components/formation";
 import Hero from "@/shared/components/hero";
+import Profile from "@/shared/components/profile";
 
 export default function Home() {
   return (
     <div>
       <Hero />
       <About />
-      <AllSkill />
+      <Profile />
+      <Course />
+      <Formation />
     </div>
   );
 }

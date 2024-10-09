@@ -1,22 +1,12 @@
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
-type SkillProps = {
+export type SkillProps = {
   title: string;
-  children: React.ReactNode;
+  content: string;
 }
-export default function Skill({title, children}: SkillProps) {
+export default function Skill({title, content}: SkillProps) {
   return (
-    <Card className="w-[350px]">
-      <CardHeader>
-        <CardTitle>{title}</CardTitle>
-      </CardHeader>
-      <CardContent>
-        {children}
-      </CardContent>
-    </Card>
+    <div className="p-3">
+      <h2 className="text-xl uppercase font-jetbrains font-bold">{title}</h2>
+      <p>{content}</p>
+    </div>
   )
 }
